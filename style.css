@@ -44,3 +44,27 @@ input{
     border-bottom: 2px solid #f2f2f2;
     width: 100%;
 }
+
+/* Second Page Design */
+#dash{
+    display: none;
+}
+.header h1{
+    text-align: center;
+    margin: 50px 0;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+}
+.deposit-withdraw{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.deposit-withdraw input{
+    margin: 20px 0;
+}

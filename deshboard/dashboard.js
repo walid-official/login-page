@@ -1,26 +1,5 @@
-let loginButton = document.getElementById("log-in");
-let textInput = document.getElementById('text-input');
-let passwordInput = document.getElementById('password-input');
-
-loginButton.addEventListener('click', function(){
-    if(textInput.value.length !== 11 || passwordInput.value.length !== 4){
-        alert("Write minimum 11 digits And Give Minimum 4 pin Numbers");
-    }else{
-          // remove login page
-        let mainContainer = document.getElementById('main-container');
-        mainContainer.removeChild(document.getElementById("removeLogin"))
-        // adding text of completion login
-        // let createh2 = document.createElement("h2");
-        // createh2.innerText = "Your Login is successfully completed";
-        let dashBoard = document.getElementById('dash');
-        dashBoard.style.display = "block"
-        mainContainer.appendChild(dashBoard);
-    }
-})
-
-// Page 2 javascript Code
-
 let btn_deposit = document.getElementById("btn-deposit");
+
 btn_deposit.addEventListener('click', function(){
    let deposit_amount = document.getElementById('deposit-amount');
    let input_deposit = document.getElementById('deposit-input');
