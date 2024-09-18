@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    margin: 50px auto;
+}
+.container1{
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.cotainer2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+.cotainer3{
+    text-align: center;
+    padding: 20px;
+    background-color:antiquewhite;
+}
+.cotainer3 button{
+    width: 100%;
+}
+select{
+    width: 100%;
+}
+input{
+    width: 100%;
+}

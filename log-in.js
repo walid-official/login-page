@@ -9,9 +9,6 @@ loginButton.addEventListener('click', function(){
           // remove login page
         let mainContainer = document.getElementById('main-container');
         mainContainer.removeChild(document.getElementById("removeLogin"))
-        // adding text of completion login
-        // let createh2 = document.createElement("h2");
-        // createh2.innerText = "Your Login is successfully completed";
         let dashBoard = document.getElementById('dash');
         dashBoard.style.display = "block"
         mainContainer.appendChild(dashBoard);
